@@ -1,0 +1,12 @@
+header h1 { margin: auto; }
+header h2 { color: grey; }
+
+#select-pad-type { background: #449d44; padding: 2em; }
+#select-pad-type ul { list-style-type: none; }
+#select-pad-type ul li { text-align: center; padding: .5em; }
+#select-pad-type li.monthly, #select-pad-type li.yearly { font-size: 2em; }
+#select-pad-type li.archives { font-size: 1.2em; color: grey; }
+#select-pad-type a { color: white; text-decoration: none; }
+#select-pad-type a:hover { font-weight: bold; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,44 @@
+header {
+
+	h1 {
+		margin: auto;
+	}
+
+	h2 {
+		color: grey;
+	}
+
+}
+
+#select-pad-type {
+	
+	background: #449d44;
+	padding: 2em;
+
+	ul {
+		list-style-type: none;
+
+		li {
+			text-align: center;
+			padding: .5em;
+		}
+	}
+
+	li.monthly, li.yearly {
+		font-size: 2em;
+	}
+
+	li.archives {
+		font-size: 1.2em;
+		color: grey;
+	}
+
+	a {
+		color: white;
+		text-decoration: none;
+	}
+
+	a:hover {
+		font-weight: bold;
+	}
+}
