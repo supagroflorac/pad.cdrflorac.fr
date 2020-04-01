@@ -1,18 +1,17 @@
-body { padding: 0; margin: 0; min-height: 100vh; display: flex; flex-flow: column; align-items: stretch; justify-content: space-between; }
+body { padding: 0; margin: 0; min-height: 100vh; display: flex; flex-flow: column; align-items: stretch; justify-content: space-between; color: #222222; }
 
 header { background: #222222; }
 header h1 { color: #9D9D9D; font-family: inherit; font-weight: 500; font-size: 18px; line-height: 20px; padding: 15px; }
 
 #presentation p { max-width: 42em; margin: auto; padding: .5em 1em; }
 
-#select-pad-type { background: #449d44; padding: 2em; min-height: 28vh; display: flex; align-items: center; justify-content: center; }
-#select-pad-type ul { list-style-type: none; margin: 1em; padding: 0; }
-#select-pad-type ul li { text-align: center; padding: .5em; }
-#select-pad-type li.monthly, #select-pad-type li.yearly { font-size: 2em; }
-#select-pad-type li.yearly { font-size: 1.8em; }
-#select-pad-type li.archives { font-size: 1em; color: grey; }
+#select-pad-type { background: #449d44; padding: 2em; min-height: 28vh; display: flex; align-items: center; justify-content: center; color: white; }
 #select-pad-type a { color: white; text-decoration: none; }
 #select-pad-type a:hover { font-weight: bold; }
+#select-pad-type td { font-size: 1.5em; padding: 0.5em; }
+#select-pad-type td.archives { text-align: center; font-size: 1em; padding-top: 2em; }
+#select-pad-type form input[type="text"] { border-top-left-radius: 3px; border-bottom-left-radius: 3px; box-sizing: border-box; line-height: 36px; outline: none; border: none; height: 38px; color: #222222; }
+#select-pad-type form button[type="submit"] { border-top-right-radius: 3px; border-bottom-right-radius: 3px; border: none; height: 40px; top: 0; color: #449d44; background: #222222; font-weight: bold; }
 
 footer { color: #9D9D9D; background: #222222; line-height: 20px; padding: 15px; text-align: center; }
 

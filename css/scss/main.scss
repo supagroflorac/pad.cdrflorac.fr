@@ -7,6 +7,8 @@ body {
 	flex-flow: column;
 	align-items: stretch;
 	justify-content: space-between;
+
+	color: #222222;
 }
 
 header {
@@ -44,29 +46,7 @@ header {
 	align-items: center;
 	justify-content: center;
 
-	ul {
-		list-style-type: none;
-		margin: 1em;
-		padding : 0;
-
-		li {
-			text-align: center;
-			padding: .5em;
-		}
-	}
-
-	li.monthly, li.yearly {
-		font-size: 2em;
-	}
-
-	li.yearly {
-		font-size: 1.8em;
-	}
-
-	li.archives {
-		font-size: 1em;
-		color: grey;
-	}
+	color: white;
 
 	a {
 		color: white;
@@ -75,6 +55,44 @@ header {
 
 	a:hover {
 		font-weight: bold;
+	}
+
+	td {
+		font-size: 1.5em;
+		padding: 0.5em;
+	}
+
+	td.archives {
+		text-align: center;
+		font-size: 1em;
+		padding-top: 2em;
+	}
+
+	form {
+
+		input[type="text"] {
+			border-top-left-radius: 3px;
+			border-bottom-left-radius: 3px;
+			box-sizing: border-box;
+			line-height: 36px;
+			outline: none;
+			border: none;
+			height: 38px;
+			color: #222222;
+
+		}
+
+		button[type="submit"] {
+			border-top-right-radius: 3px;
+			border-bottom-right-radius: 3px;
+			border: none;
+			height: 40px;
+			top: 0;
+			color: #449d44;
+			background: #222222;
+			font-weight: bold;
+		}
+
 	}
 }
 
