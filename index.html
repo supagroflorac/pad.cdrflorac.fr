@@ -17,7 +17,7 @@
 
         <p>Afin d’alléger la gestion de ce service dans le temps merci de préférer les pads mensuels. De même, évitez d'utiliser le même pad sur une longue durée. L'historique étant conservé, celui-ci alourdit la base de donnée et rend le pad inutilisable.</p>
 
-        <p>Les anciens pad sont accessibles en lecture seul pour une durée de 6 mois. Ils seront ensuite supprimés le 1er Octobre 2020.</p>
+        <p>Les anciens pad sont accessibles en lecture seule pour une durée de 6 mois. Ils seront ensuite supprimés le 1er Octobre 2020.</p>
       </article>
 
     <article id="select-pad-type">
@@ -68,23 +68,23 @@
     function go2NameMonthly()
     {
       var padname = document.getElementById("padnamemonthly").value;
-      padname.length > 0 ? window.location = "https://mensuel.pad.cdrflorac.fr/p/" + encodeURIComponent(padname.trim()) : alert("Please enter a name")
+      padname.length > 0 ? window.location = "//mensuel.pad.cdrflorac.fr/p/" + encodeURIComponent(padname.trim()) : alert("Please enter a name")
     }
 
     function go2RandomMonthly()
     {
-        window.location = "https://mensuel.pad.cdrflorac.fr/p/" + randomPadName();
+        window.location = "//mensuel.pad.cdrflorac.fr/p/" + randomPadName();
     }
 
     function go2NameYearly()
     {
         var padname = document.getElementById("padnameyearly").value;
-        padname.length > 0 ? window.location = "https://annuel.pad.cdrflorac.fr/p/" + encodeURIComponent(padname.trim()) : alert("Please enter a name")
+        padname.length > 0 ? window.location = "//annuel.pad.cdrflorac.fr/p/" + encodeURIComponent(padname.trim()) : alert("Please enter a name")
     }
 
     function go2RandomYearly()
     {
-        window.location = "http://annuel.pad.cdrflorac.fr/p/" + randomPadName();
+        window.location = "//annuel.pad.cdrflorac.fr/p/" + randomPadName();
     }
 
     function randomPadName()
